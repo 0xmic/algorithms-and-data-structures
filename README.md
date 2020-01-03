@@ -1,4 +1,4 @@
-# Notes on Algorithms and Data Structures
+# Algorithms and Data Structures
 
 This repository contains examples of many popular algorithms and data structures. Examples will be based in popular programming languages with an emphasis on JavaScript.
 
