@@ -39,7 +39,7 @@ An algorithm is an unambiguous specification of how to solve a class of problems
 
 ### Algorithms by Category
 * **Arrays**
-  * Two Number Sum
+  * [Two Number Sum](src/algorithms/arrays/two-number-sum)
   * Three Number Sum
   * Smallest Difference
   * Move Element to End
