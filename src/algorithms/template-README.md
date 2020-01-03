@@ -1,4 +1,4 @@
-# <Algorithm Title>
+# Algorithm Title
 
 Short description of the algorithm. May include sample input and output.
 
@@ -8,6 +8,6 @@ Short description of the algorithm. May include sample input and output.
 Short example of algorithm.
 
 
-# Solution & Complexity
+## Solution & Complexity
 
 Explanation of solution(s). Separate from code implementation. Include space/time complexity.
