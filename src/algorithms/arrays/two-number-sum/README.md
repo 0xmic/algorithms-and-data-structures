@@ -1,13 +1,12 @@
-# Algorithm Title
+# Two Number Sum
 
-Short description of the algorithm. May include sample input and output.
-
+Write a function that takes in a non-empty array of distinct integers and an integer representing a target sum. If any two numbers in the input array sum up to the target sum, the function should return them in an array. If no two numbers sum up to the target sum, the function should return an empty array. Assume that there will be at most one pair of numbers summing up to the target sum.
 
 ## Example
 
-Short example of algorithm.
+Sample Input: [3, 5, -4, 8, 11, 1, -1, 6], 10
+Sample Output: [-1, 11]
 
 
 ## Solution & Complexity
 
-Explanation of solution(s). Separate from code implementation. Include space/time complexity.
