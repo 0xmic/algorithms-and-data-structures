@@ -150,3 +150,6 @@ An algorithm is an unambiguous specification of how to solve a class of problems
 * **Tries**
   * Suffix Triie Construction
   * Multi String Search
+
+## Additional Resources
+* [JavaScript Algorithms](https://github.com/trekhleb/javascript-algorithms)
