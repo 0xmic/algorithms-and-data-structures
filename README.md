@@ -1,13 +1,23 @@
-# Algorithms and Data Structures
+# Notes on Algorithms and Data Structures
 
-This repository contains explanations, implementations, and code examples of popular algorithms and data structures. Code examples will be based on popular programming languages with an emphasis on JavaScript.
+This repository contains examples of many popular algorithms and data structures. Examples will be based in popular programming languages with an emphasis on JavaScript.
 
-Each algorithm and data structure has its own  README with explanations and links for further reading.
+Each algorithm and data structure has its own separate README with related explanations and links for further reading.
 
-*☝ Note that this project is meant to be used for learning and researching purposes only and it is **not** meant to be used for production.*
+* ☝ Note that this project is meant to be used for learning and researching purposes only and it is **not** meant to be used for production.*
 
 ## Space/Time Complexity
+Algorithm complexity is a measure which evaluates the order of the count of operations performed by a given algorithm as a function of the size of the input data. Put simply, complexity is a rough approximation of the number of steps necessary to solve or execute an algorithm.
 
+An algorithm problem may have multiple solutions, and some solutions may be better than others. What makes one solution better than another is the solution's complexity. 
+
+Complexity can be divided into:
+* Time: a measure of how fast a solution runs
+* Space: a measure of how much memory an algorithm uses
+
+When comparing two solutions, the better solution is the one with better space and time complexity. If one solution has better of one complexity and worse of the other, it is up to the programmer to choose the best solutions for the given use case.
+
+To perform an operation or function on a given data structure (or on the underlying set of data values) will take time and memory. Different data structures will have different time and space complexity ramifications for the functions and operations that they support.
 
 ## Data Structures
 A data structure is a particular way of organizing and storing data in a computer so that it can be accessed and modified efficiently. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.
