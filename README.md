@@ -170,7 +170,7 @@ In regards to computer science, Big O refers to the _worst case_ scenario.
 
 If an algorithm contains multiple different input values, reduce and keep both. (i.e. O(M^2 + 2N + 1) ≈ O(M^2 + N))
 
-_Input Big O Guide_
+![Big O graphs](./assets/big-o-graph.png)
 
 Source: [Big O Cheat Sheet](https://www.bigocheatsheet.com/)
 
