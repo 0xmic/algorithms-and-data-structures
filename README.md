@@ -4,7 +4,7 @@ This repository contains examples of many popular algorithms and data structures
 
 Each algorithm and data structure has its own separate README with related explanations and links for further reading.
 
-* ☝ Note that this project is meant to be used for learning and researching purposes only and it is **not** meant to be used for production.*
+*☝ Note that this project is meant to be used for learning and researching purposes only and it is **not** meant to be used for production.*
 
 ## Space/Time Complexity
 Algorithm complexity is a measure which evaluates the order of the count of operations performed by a given algorithm as a function of the size of the input data. Put simply, complexity is a rough approximation of the number of steps necessary to solve or execute an algorithm.
