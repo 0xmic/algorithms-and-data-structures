@@ -34,6 +34,10 @@ A data structure is a particular way of organizing and storing data in a compute
 
 An algorithm is an unambiguous specification of how to solve a class of problems. It is a set of rules that precisely define a sequence of operations.
 
+Useful to review:
+* [Memory](src/algorithms/review/memory)
+* [Logarithm](src/algorithms/review/logarithm)
+
 ### Algorithms by Category
 * **Arrays**
   * [Two Number Sum](src/algorithms/arrays/two-number-sum)
