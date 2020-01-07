@@ -14,11 +14,12 @@ To perform an operation or function on a given data structure (or on the underly
 ## Big O Notation
 Big O notation is a a mathematical notation that describes the limiting behavior of a function when the arguments tend towardsd a particular value or infinity - otherwise called asymptotic notation. Put simply, Big O notation is used to classify algorithms according to how their running time or space requirements grow as the input size grows. The unit of Big O notation is measured in elementary operations. 
 
-When measuring elementary operations in an algorithm's complexity, we can drop constants and fixed time/space operations. (i.e. O(2N<sup>2</sup> + N + 1) ≈ O(N<sup>2</sup>))
+When measuring elementary operations in an algorithm's complexity, we can drop constants and fixed time/space operations.  
+- i.e. O(2N<sup>2</sup> + N + 1) ≈ O(N<sup>2</sup>)
 
-In regards to computer science, Big O refers to the _worst case_ scenario. 
+In regards to computer science, Big O refers to the _worst case_ scenario.  
 
-If an algorithm contains multiple different input values, reduce and keep both.
+If an algorithm contains multiple different input values, reduce and keep both.  
 - i.e. O(M<sup>2</sup> + 2N + 1) ≈ O(M<sup>2</sup> + N)
 
 ![Big O graphs](./assets/big-o-graph.png)
