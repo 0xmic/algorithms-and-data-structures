@@ -4,8 +4,8 @@ Algorithm complexity is a measure which evaluates the order of the count of oper
 An algorithm problem may have multiple solutions, and some solutions may be better than others. What makes one solution better than another is the solution's complexity. 
 
 Complexity can be divided into:
-* Time: a measure of how fast a solution runs
-* Space: a measure of how much memory an algorithm uses
+* Time - a measure of how fast a solution runs
+* Space - a measure of how much memory an algorithm uses
 
 When comparing two solutions, the better solution is the one with better space and time complexity. If one solution has better of one complexity and worse of the other, it is up to the programmer to choose the best solutions for the given use case.
 
