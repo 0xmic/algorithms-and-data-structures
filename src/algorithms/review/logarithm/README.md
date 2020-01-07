@@ -17,7 +17,7 @@ log(8)=3 ≈≈ 2<sup>3</sup>=8
 log(16)=4 ≈≈ 2<sup>4</sup>=16  
 log(N)=? ≈≈ 2<sup>?</sup>=N  
 
-To find the binary logarithm (base 2) of a number N is analogous to asking "2 to the power of what equals N?". When we add 1 to the power of 2, we are doubling the input N.
+Solving for the binary logarithm (base 2) of a number N is analogous to asking "2 to the power of what equals N?". When we add 1 to the power of 2, we are doubling the input N.
 
 When considering if an algorithm has a logarithmic complexity, ask yourself:
 - Are you eliminating half the input at every step?
