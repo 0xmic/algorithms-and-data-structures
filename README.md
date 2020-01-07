@@ -13,12 +13,11 @@ A data structure is a particular way of organizing and storing data in a compute
 * Strings
 * Linked List
 * Doubly Linked List
-* Queue
 * Stack
-* Hash Table
-* Linked Hash Map
-* Heap
+* Queue
 * Priority Queue
+* Hash Table
+* Heap
 * Trie
 * Tree
     * Binary Search Tree
