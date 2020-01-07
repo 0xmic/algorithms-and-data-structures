@@ -5,6 +5,7 @@ log<sub>b</sub>(x) = y     iff     b<sup>y</sup> = x
 
 When discussing logarithms in computer science and mathematics, it is important to specify the base of the logarithm. When discussing computer science, we assume the binary logarithm - base 2.
 
+
 ### Mathematical Intuition:  
 log<sub>2</sub>(N) = y      iff     2<sup>y</sup> = N  
 log<sub>2</sub>((N) = ?      iff     2<sup>?</sup> = N  
@@ -27,3 +28,8 @@ As an input value N increases, log(N) will increase at a slower rate - i.e. 2 to
 
 Examples:  
 - An array of length N, where an algorithm cuts the array in half at each step. This algorithm has a time complexity that roughly maps to log(N). This is seen in binary tree search algorithms.
+
+Key Intuition:  
+- Are you eliminating half the input at every step?
+- If you double the size of the input, are you only adding one operation?
+
