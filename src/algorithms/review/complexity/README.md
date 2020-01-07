@@ -26,7 +26,7 @@ If an algorithm contains multiple different input values, reduce and keep both.
 
 Source: [Big O Cheat Sheet](https://www.bigocheatsheet.com/)
 
-Below is the list of some of the most used Big O noations and their performance comparisons against different sizes of the input data.
+Below is the list of some of the most used Big O notations and their performance comparisons against different sizes of the input data.
 
 | Big O Notation | Computations for 10 elements | Computations for 100 elements | Computations for 1000 elements  |
 | -------------- | ---------------------------- | ----------------------------- | ------------------------------- |
