@@ -28,3 +28,5 @@ As an input value N increases, log(N) will increase at a slower rate - i.e. 2 to
 
 ### Examples
 - An array of length N, where an algorithm cuts the array in half at each step. This algorithm has a time complexity that roughly maps to log(N). This is seen in binary tree search algorithms.
+
+![Binary Search Tree](./assets/binary_search_tree.png)
