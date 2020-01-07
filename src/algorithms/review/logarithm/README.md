@@ -3,7 +3,7 @@
 ### Mathematical Definition:
 log<sub>b</sub>(x) = y     iff     b<sup>y</sup> = x
 
-When discussing logarithms in computer science and mathematics, it is important to specify the base of the logarithm. When discussing computer science, we assume the binary logarithm - base 2.
+When discussing logarithms, it is important to specify the base. In computer science, we assume the binary logarithm - base 2.
 
 
 ### Mathematical Intuition:  
@@ -28,3 +28,5 @@ As an input value N increases, log(N) will increase at a slower rate - i.e. 2 to
 
 ### Examples
 - An array of length N, where an algorithm cuts the array in half at each step. This algorithm has a time complexity that roughly maps to log(N). This is seen in binary tree search algorithms.
+
+![Binary Search Tree](./assets/binary_search_tree.png)
