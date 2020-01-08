@@ -12,7 +12,7 @@ When comparing two solutions, the better solution is the one with better space a
 To perform an operation or function on a given data structure (or on the underlying set of data values) will take time and memory. Different data structures will have different time and space complexity ramifications for the functions and operations that they support.
 
 ## Big O Notation
-Big O notation is a a mathematical notation that describes the limiting behavior of a function when the arguments tend towardsd a particular value or infinity - otherwise called asymptotic notation. Put simply, Big O notation is used to classify algorithms according to how their running time or space requirements grow as the input size grows. The unit of Big O notation is measured in elementary operations. 
+Big O notation is a a mathematical notation that describes the limiting behavior of a function when the arguments tend towards a particular value or infinity - otherwise called asymptotic notation. Put simply, Big O notation is used to classify algorithms according to how their running time or space requirements grow as the input size grows. The unit of Big O notation is measured in elementary operations. 
 
 When measuring elementary operations in an algorithm's complexity, we can drop constants and fixed time/space operations.  
 - i.e. O(2N<sup>2</sup> + N + 1) ≈ O(N<sup>2</sup>)

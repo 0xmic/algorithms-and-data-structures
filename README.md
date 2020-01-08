@@ -9,25 +9,25 @@ _\*\* Note that this project is meant to be used for learning and researching pu
 ## Data Structures
 A data structure is a particular way of organizing and storing data in a computer so that it can be accessed and modified efficiently. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.
 
-* Arrays
-* Strings
-* Linked List
-* Doubly Linked List
-* Stack
-* Queue
-* Priority Queue
-* Hash Table
-* Heap
-* Trie
-* Tree
-    * Binary Search Tree
-    * AVL Tree
-    * Red-Black Tree
-    * Segment Tree
-    * Fenwick Tree
-* Graph - directed/undirected/weighted
-* Disjoint Set
-* Bloom Filter
+* [Arrays](src/data-structures/arrays)
+* [Strings](src/data-structures/strings)
+* [Linked List](src/data-structures/linked-list)
+* [Doubly Linked List](src/data-structures/doubly-linked-list)
+* [Stack](src/data-structures/stack)
+* [Queue](src/data-structures/queue)
+* [Priority Queue](src/data-structures/priority-queue)
+* [Hash Table](src/data-structures/hash-table)
+* [Heap](src/data-structures/heap)
+* [Trie](src/data-structures/trie)
+* [Tree](src/data-structures/tree)
+    * [Binary Search Tree]()
+    * [AVL Tree]()
+    * [Red-Black Tree]()
+    * [Segment Tree]()
+    * [Fenwick Tree]()
+* [Graph](src/data-structures/graph) - directed/undirected/weighted
+* [Disjoint Set](src/data-structures/disjoint-set)
+* [Bloom Filter](src/data-structures/bloom-filter)
 
 ## Algorithms
 
