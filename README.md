@@ -20,11 +20,19 @@ A data structure is a particular way of organizing and storing data in a compute
 * [Heap](src/data-structures/heap)
 * [Trie](src/data-structures/trie)
 * [Tree](src/data-structures/tree)
+<<<<<<< Updated upstream
     * [Binary Search Tree](src/data-structures/tree/binary-search-tree)
     * [AVL Tree](src/data-structures/tree/avl-tree)
     * [Red-Black Tree](src/data-structures/tree/red-black-tree)
     * [Segment Tree](src/data-structures/tree/segment-tree)
     * [Fenwick Tree](src/data-structures/tree/fenwick-tree)
+=======
+    * [Binary Search Tree]()
+    * [AVL Tree]()
+    * [Red-Black Tree]()
+    * [Segment Tree]()
+    * [Fenwick Tree]()
+>>>>>>> Stashed changes
 * [Graph](src/data-structures/graph) - directed/undirected/weighted
 * [Disjoint Set](src/data-structures/disjoint-set)
 * [Bloom Filter](src/data-structures/bloom-filter)
