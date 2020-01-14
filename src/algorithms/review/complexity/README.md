@@ -7,7 +7,7 @@ Complexity can be divided into:
 * Time - a measure of how fast a solution runs
 * Space - a measure of how much memory an algorithm uses
 
-When comparing two solutions, the better solution is the one with better space and time complexity. If one solution has better of one complexity and worse of the other, it is up to the programmer to choose the best solutions for the given use case.
+When comparing two solutions, the better solution is the one with better space and time complexity. If one solution has better of one complexity and worse of the other, it is up to the programmer to choose the best solution for the given use case.
 
 To perform an operation or function on a given data structure (or on the underlying set of data values) will take time and memory. Different data structures will have different time and space complexity ramifications for the functions and operations that they support.
 
