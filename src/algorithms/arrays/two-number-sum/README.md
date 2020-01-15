@@ -11,3 +11,14 @@ Sample Output: [-1, 11]
 
 ## Solution & Complexity
 
+### Solution 1: O(N<sup>2</sup>) time | O(1) space
+* [JavaScript](src/algorithms/arrays/two-number-sum/solution1.js)
+* [Python](src/algorithms/arrays/two-number-sum/solution1.py)
+
+### Solution 2: O(N) time | O(N) space
+* [JavaScript](src/algorithms/arrays/two-number-sum/solution2.js)
+* [Python](src/algorithms/arrays/two-number-sum/solution2.py)
+
+### Solution 3: O(Nlog(N)) time | O(1) space
+* [JavaScript](src/algorithms/arrays/two-number-sum/solution3.js)
+* [Python](src/algorithms/arrays/two-number-sum/solution3.py)
