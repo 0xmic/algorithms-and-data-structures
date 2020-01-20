@@ -4,3 +4,8 @@ In computer science, a queue is a particular kind of abstract data type or colle
 Representation of a FIFO (first in, first out) queue
 
 ![Queue](./queue.png)
+
+## Complexities
+| Access    | Search    | Insertion | Deletion  | Comments  |
+| :-------: | :-------: | :-------: | :-------: | :-------- |
+| n         | n         | 1         | 1         |           |

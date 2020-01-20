@@ -8,3 +8,8 @@ The order in which elements come off a stack gives rise to its alternative name,
 Simple representation of a stack runtime with push and pop operations.
 
 ![Stack](./stack.png)
+
+## Complexities
+| Access    | Search    | Insertion | Deletion  | Comments  |
+| :-------: | :-------: | :-------: | :-------: | :-------- |
+| n         | n         | 1         | 1         |           |
