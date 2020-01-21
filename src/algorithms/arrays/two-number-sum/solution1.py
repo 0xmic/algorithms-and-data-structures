@@ -1,3 +1,5 @@
+# Cycle through array w/ 2 nested for-loops to find all pairs
+# Evaluate if pair equals target sum
 # O(n^2) time | O(1) space
 
 def twoNumberSum(array, targetSum):

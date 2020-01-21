@@ -1,3 +1,7 @@
+// Create hashmap to store values in array that have been read
+// Cycle through array
+// Read values in array and compute corresponding potentialMatch for targetSum
+// If potentialMatch has been previously read, return match, else add value to hashmap
 // O(N) time | O(N) space
 
 function twoNumberSum(array, targetSum) {
