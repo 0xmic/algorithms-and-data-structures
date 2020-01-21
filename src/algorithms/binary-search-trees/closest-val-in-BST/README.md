@@ -7,10 +7,10 @@ You are given a BST data structure consisting of BST nodes. Each BST nodes has a
 Sample Input:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10&nbsp;&nbsp;&nbsp;, 12  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\  
-&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;15  
-&nbsp;&nbsp;&nbsp;/ &nbsp; \ &nbsp; /&nbsp;&nbsp;\  
+&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;&nbsp;15  
+&nbsp;&nbsp;&nbsp;/ &nbsp; \ &nbsp;&nbsp; /&nbsp;&nbsp;\  
 &nbsp;&nbsp;2&nbsp;&nbsp;5&nbsp;13&nbsp;&nbsp;22  
-&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\  
-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14  
+&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\  
+1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14  
 
 Sample Output: 13
