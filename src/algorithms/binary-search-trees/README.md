@@ -5,12 +5,12 @@ You are given a BST data structure consisting of BST nodes. Each BST nodes has a
 ## Example
 
 Sample Input:
-      10    , 12
-     /  \
-    5   15
-   / \ /  \
-  2  5 13  22
- /       \
-1         14
+      10    , 12  
+     /  \  
+    5   15  
+   / \ /  \  
+  2  5 13  22  
+ /       \  
+1         14  
 
 Sample Output: 13
