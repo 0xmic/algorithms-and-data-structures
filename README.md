@@ -26,8 +26,6 @@ A data structure is a particular way of organizing and storing data in a compute
     * [Segment Tree](src/data-structures/tree/segment-tree)
     * [Fenwick Tree](src/data-structures/tree/fenwick-tree)
 * [Graph](src/data-structures/graph) - directed/undirected/weighted
-* [Disjoint Set](src/data-structures/disjoint-set)
-* [Bloom Filter](src/data-structures/bloom-filter)
 
 ## Algorithms
 
