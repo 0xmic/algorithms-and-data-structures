@@ -14,3 +14,13 @@ Sample Input:
 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14  
 
 Sample Output: 13
+
+## Solution & Complexity  
+### Solution 1  
+Average: O(log(N)) Time | O(log(N)) Space
+Worst: O(N) Time | O(N) Space
+
+### Solution 2  
+Average: O(log(N)) Time | O(1) Space
+Worst: O(N) Time | O(1) Space
+
