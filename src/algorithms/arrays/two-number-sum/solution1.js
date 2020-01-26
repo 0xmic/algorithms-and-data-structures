@@ -14,7 +14,8 @@ function twoNumberSum(array, targetSum) {
             }
         }
     }
-	return [];
+    
+    return [];
 }
 
 exports.twoNumberSum = twoNumberSum;
