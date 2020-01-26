@@ -1,3 +1,5 @@
+# STRATEGY:
+# Use hash table/dict to store read values
 # COMPLEXITY:
 # O(n) time | O(n) space
 

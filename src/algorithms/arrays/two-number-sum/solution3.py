@@ -1,3 +1,6 @@
+# STRATEGY:
+# Sort array - traverse from both ends with left/right pointers
+# COMPLEXITY:
 # O(nlog(n)) time | O(1) space
 
 def twoNumberSum(array, targetSum):

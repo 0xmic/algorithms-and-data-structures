@@ -9,13 +9,15 @@ Sample Input: [3, 5, -4, 8, 11, 1, -1, 6], 10
 Sample Output: [-1, 11]
 
 
-## Solution & Complexity
+## Solution & Complexity  
+### Solution 1  
+__Strategy__: Nested for-loops  
+__Complexity__: O(N<sup>2</sup>) time | O(1) space  
 
-Solution 1: 
-O(N<sup>2</sup>) time | O(1) space
+### Solution 2  
+__Strategy__: Use hash table to store read values  
+__Complexity__: O(N) time | O(N) space  
 
-Solution 2: 
-O(N) time | O(N) space
-
-Solution 3: 
-O(Nlog(N)) time | O(1) space
+### Solution 3  
+__Strategy__: Sort array - traverse from both ends with left/right pointers  
+__Complexity__: O(Nlog(N)) time | O(1) space  
