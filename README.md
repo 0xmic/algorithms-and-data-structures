@@ -85,7 +85,7 @@ Background knowledge:
   * Knuth-Morris-Pratt Algorithm
 
 * **Graphs**
-  * Depth-first Search
+  * [Depth-first Search](src/algorithms/graphs/depth-first-search)
   * Single Cycle Check
   * Breadth-first Search
   * River Sizes
