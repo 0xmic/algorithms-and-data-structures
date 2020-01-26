@@ -17,11 +17,11 @@ Sample Output: 13
 
 ## Solution & Complexity  
 ### Solution 1  
-__Strategy__: Recursively search BST
+__Strategy__: Recursively search BST  
 __Complexity (Avg)__: O(log(N)) Time | O(log(N)) Space  
 __Complexity (Worst)__: O(N) Time | O(N) Space  
 
 ### Solution 2  
-__Strategy__: Iteratively search BST
+__Strategy__: Iteratively search BST  
 __Complexity (Avg)__: O(log(N)) Time | O(1) Space  
 __Complexity (Worst)__: O(N) Time | O(1) Space  
