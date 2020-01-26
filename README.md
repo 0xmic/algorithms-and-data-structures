@@ -57,7 +57,7 @@ Background knowledge:
   * Same BSTs
 
 * **Binary Trees**
-  * Branch Sums
+  * [Branch Sums](src/algorithms/binary-trees/branch-sums)
   * Invert Binary Tree
   * Max Path Sum in Binary Tree
   * Iterative In-order Traversal
