@@ -50,7 +50,7 @@ Background knowledge:
   * Calendar Mathing
 
 * **Binary Search Trees**
-  * Find Closest Value in BST
+  * [Find Closest Value in BST](src/algorithms/binary-search-trees/closest-val-in-BST)
   * BST Construction
   * Validate BST
   * BST Traversal
