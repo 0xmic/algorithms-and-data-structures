@@ -5,11 +5,11 @@ Write a function that takes in a Binary Tree and returns a list of its branch su
 Sample Input:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3  
 &nbsp;&nbsp;&nbsp;/ &nbsp;\ &nbsp;&nbsp; /&nbsp;&nbsp;\  
-&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;&nbsp;7  
-&nbsp;/&nbsp;\ &nbsp;&nbsp;&nbsp;\  
-8&nbsp;&nbsp;&nbsp;&nbsp;9&nbsp;&nbsp;&nbsp;10  
+&nbsp;&nbsp;4&nbsp;&nbsp;5&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;7  
+&nbsp;/&nbsp;&nbsp; \ &nbsp;&nbsp;\  
+8&nbsp;&nbsp;&nbsp;9&nbsp;10  
 
 Sample Output: [15, 16, 18, 10, 11]
 
