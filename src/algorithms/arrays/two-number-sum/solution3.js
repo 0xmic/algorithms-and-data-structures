@@ -1,7 +1,9 @@
+// STRATEGY:
 // Sort array
 // Create two pointers at first and last values in array
 // While the pointers haven't crossed, evaluate if pointer sums equals targetSum
 // If sum is low, move left pointer right, else move right pointer left
+// COMPLEXITY:
 // O(nlog(n)) time | O(1) space
 
 function twoNumberSum(array, targetSum) {

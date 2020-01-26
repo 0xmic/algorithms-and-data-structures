@@ -1,5 +1,7 @@
+// STRATEGY:
 // Cycle through array w/ 2 nested for-loops to find all pairs
 // Evaluate if pair equals target sum
+// COMPLEXITY:
 // O(N^2) time | O(1) space
 
 function twoNumberSum(array, targetSum) {
