@@ -7,17 +7,13 @@
 def findClosestValueInBst(tree, target):
     return findClosestValueInBstHelper(tree, target, float("inf"))
 
-# Helper method
 def findClosestValueInBstHelper(tree, target, closest):
-    # recursive base case
     if tree is None:
         return closest
 
-    # compute (and update) closest value
     if abs(target - closest) > abs(target - tree.value): 
         closest = tree.value
 
-    # traverse appropriate child BST for closer values
     if target < tree.value:
         return findClosestValueInBstHelper(tree.left, target, closest)
     elif target > tree.value:
