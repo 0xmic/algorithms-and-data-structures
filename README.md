@@ -41,6 +41,9 @@ Background knowledge:
   * Three Number Sum
   * Smallest Difference
   * Move Element to End
+  * Monotonic Array
+  * Spiral Traverse
+  * Longest Peak
   * Four Number Sum
   * Subarray Sort
   * Largest Range
@@ -61,6 +64,8 @@ Background knowledge:
   * Invert Binary Tree
   * Max Path Sum in Binary Tree
   * Iterative In-order Traversal
+  * Flatten Binary Tree
+  * Right Sibling Tree
 
 * **Dynamic Programming**
   * Max Subset Sum No Adjacent

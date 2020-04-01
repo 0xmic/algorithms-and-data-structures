@@ -7,7 +7,7 @@ Sample Input:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp; |&nbsp; \  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B&nbsp;&nbsp;C&nbsp;&nbsp;&nbsp;D  
 &nbsp;&nbsp;&nbsp;/ &nbsp;\ &nbsp;&nbsp;&nbsp;&nbsp; /&nbsp;&nbsp;\  
-&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;F&nbsp;&nbsp;G&nbsp;&nbsp;&nbsp;&nbsp;H  
+&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;F&nbsp;&nbsp;G&nbsp;&nbsp;&nbsp;H  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;\ &nbsp;&nbsp;\  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;J&nbsp;&nbsp;&nbsp;K  
 
