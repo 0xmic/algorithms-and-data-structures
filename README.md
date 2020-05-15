@@ -38,6 +38,7 @@ Background knowledge:
 ### Algorithms by Category
 * **Arrays**
   * [Two Number Sum](src/algorithms/arrays/two-number-sum)
+  * Validate Subsequence
   * Three Number Sum
   * Smallest Difference
   * Move Element to End
@@ -57,15 +58,19 @@ Background knowledge:
   * BST Construction
   * Validate BST
   * BST Traversal
+  * Min Height BST
   * Same BSTs
+  * Right Smaller Than
 
 * **Binary Trees**
   * [Branch Sums](src/algorithms/binary-trees/branch-sums)
+  * Node Depths
   * Invert Binary Tree
   * Max Path Sum in Binary Tree
   * Iterative In-order Traversal
   * Flatten Binary Tree
   * Right Sibling Tree
+  * All Kinds of Node Depths
 
 * **Dynamic Programming**
   * Max Subset Sum No Adjacent
@@ -83,6 +88,7 @@ Background knowledge:
   * Pallindrome Partitioning Min Cuts
   * Longest String Chain
   * Longest Increasing Subsequence
+  * Square of Zeroes
 
 * **Famous Algorithms**
   * Kadane's Algorithm
@@ -102,6 +108,7 @@ Background knowledge:
 * **Heaps**
   * Main Heap Construction
   * Continuous Median
+  * Merge Sorted Arrays
 
 * **Linked Lists**
   * Linked List Construction
@@ -109,7 +116,9 @@ Background knowledge:
   * Find Loop
   * Reverse Linked List
   * Merge Linked Lists
+  * Shift Linked List
   * LRU Cache
+  * Rearrange Linked List
 
 * **Recursion**
   * Nth Fibonacci
@@ -139,6 +148,7 @@ Background knowledge:
 * **Stacks**
   * Min Max Stack Construction
   * Balanced Brackets
+  * Shorten Path
 
 * **Strings**
   * Palindrome Check
