@@ -1,5 +1,7 @@
 // STRATEGY:
-// Recursively traverse tree from root - at each node, keep track of running sum of parent node values. Return leaf sums.
+// Recursively traverse tree from root - at each node, 
+// keep track of running sum of parent node values. 
+// Return leaf sums.
 // COMPLEXITY:
 // O(N) Time | O(N) Space
 
