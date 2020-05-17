@@ -121,7 +121,7 @@ Background knowledge:
   * Rearrange Linked List
 
 * **Recursion**
-  * Nth Fibonacci
+  * [Nth Fibonacci](src/algorithms/recursion/nth-fibonacci)
   * Product Sum
   * Permutations
   * Powerset
