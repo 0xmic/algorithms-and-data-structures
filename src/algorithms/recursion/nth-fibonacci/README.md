@@ -26,26 +26,13 @@ n = 6
 
 ## Solution & Complexity  
 ### Solution 1  
-<<<<<<< HEAD
 __Strategy__: Naive recursive solution.  
 __Complexity__: O(2^n) Time | O(n) Space  
 
 ### Solution 2  
 __Strategy__: Recursive solution w/ memoization.  
-=======
-__Strategy__: Naive recursive solution
-__Complexity__: O(2^n) Time | O(n) Space  
-
-### Solution 2  
-__Strategy__: Recursive solution w/ memoization
->>>>>>> f0df09bc580248f5016542e5d4698d3fd443c1ca
 __Complexity__: O(n) Time | O(n) Space  
 
 ### Solution 3  
-__Strategy__:  
-<<<<<<< HEAD
-Iterative solution. Store last two fib numbers in an array.  
-=======
-Iterative solution. Store last two fib numbers in an array.
->>>>>>> f0df09bc580248f5016542e5d4698d3fd443c1ca
-__Complexity__: O(n) Time | O(1) Space
+__Strategy__:  Iterative solution. Store last two fib numbers in an array.  
+__Complexity__: O(n) Time | O(1) Space  
