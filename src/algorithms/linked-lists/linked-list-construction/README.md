@@ -20,3 +20,28 @@ removeNodesWithValue(3): 4 <-> 1 <-> 2 <-> 5 <-> 6 // remove all nodes with valu
 remove(2): 4 <-> 1 <-> 5 <-> 6 // remove the existing node with value 2
 containsNodeWithValue(5): true
 ```
+
+## Solution & Complexity  
+### setHead  
+**Complexity**: O(1) time | O(1) space  
+
+### setTail  
+**Complexity**: O(1) time | O(1) space  
+
+### insertBefore  
+**Complexity**: O(1) time | O(1) space  
+
+### insertAfter  
+**Complexity**: O(1) time | O(1) space  
+
+### insertAtPosition  
+**Complexity**: O(p) time | O(1) space  
+
+### removeNodesWithValue  
+**Complexity**: O(n) time | O(1) space  
+
+### remove  
+**Complexity**: O(1) time | O(1) space  
+
+### conainsNodeWithValue  
+**Complexity**: O(n) time | O(1) space  
