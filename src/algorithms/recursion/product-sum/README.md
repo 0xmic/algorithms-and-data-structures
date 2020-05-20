@@ -13,6 +13,8 @@ array = [5, 2, [7, -1], 3, [6, [-13, 8], 4]]
 12 // calculated as 5 + 2 + 2 * (7 - 1) + 3 + 2 * (6 + 3 * (-13 + 8) + 4)
 ```
 
-## Solution & Complexity  
-__Strategy__: 
-__Complexity__: O( ) Time | O( ) Space  
+## Complexity  
+O(N) Time | O(D) Space
+
+* N = Total number of elements in the original array, plus the elements in each subsequent sub-array.
+* D = Depth of sub-arrays in the input array
