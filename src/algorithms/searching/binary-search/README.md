@@ -12,5 +12,9 @@ target = 33
 3
 ```
 
-## Complexity    
-O( ) Time | O( ) Space
+## Strategy & Complexity  
+**Strategy 1**: Recursive call  
+**Complexity**: O(log(n)) Time | O(log(n)) Space  
+  
+**Strategy 2**: While loop  
+**Complexity**: O(log(n)) Time | O(1) Space  

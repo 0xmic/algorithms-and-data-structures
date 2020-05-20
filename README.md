@@ -130,7 +130,7 @@ Background knowledge:
   * Number of Binary Tree Topologies
 
 * **Searching**
-  * Binary Search
+  * [Binary Search](src/algorithms/searching/binary-search)
   * Find Three Largest Numbers
   * Search in Sorted Matrix
   * Shifted Binary Search
