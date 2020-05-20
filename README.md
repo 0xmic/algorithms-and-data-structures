@@ -111,7 +111,7 @@ Background knowledge:
   * Merge Sorted Arrays
 
 * **Linked Lists**
-  * Linked List Construction
+  * [Linked List Construction](src/algorithms/linked-lists/linked-list-construction)
   * Remove Kth Node from End
   * Find Loop
   * Reverse Linked List
@@ -122,7 +122,7 @@ Background knowledge:
 
 * **Recursion**
   * [Nth Fibonacci](src/algorithms/recursion/nth-fibonacci)
-  * Product Sum
+  * [Product Sum](src/algorithms/recursion/product-sum)
   * Permutations
   * Powerset
   * Lowest Common Manager
