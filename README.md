@@ -138,7 +138,7 @@ Background knowledge:
   * Quickselect
 
 * **Sorting**
-  * Bubble Sort
+  * [Bubble Sort](src/algorithms/sorting/bubble-sort)
   * Insertion Sort
   * Selection Sort
   * Quick Sort
