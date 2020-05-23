@@ -12,5 +12,5 @@ __Sample Output__:
 ```
 
 ## Solution & Complexity
-__Solution__: Create space at beginning of the list that is tentatively sorted; i.e. the first array value. Then traverse through rest of the array. At each index, insert the new value into the beginning sorted array where it should be such that the beginning array remains sorted. Shift the new value backwards until it is properly sorted. At each step, the beginning sorted array grows by one, the end unsorted array shrinks by one.
+__Solution__: Create space at beginning of the list that is tentatively sorted; i.e. the first array value. Then traverse through rest of the array. At each index, insert the new value into the beginning sorted array where it should be such that the beginning array remains sorted. Shift the new value backwards until it is properly sorted. At each step, the beginning sorted array grows by one, the end unsorted array shrinks by one.  
 __Complexity__: O(N<sup>2</sup>) time | O(1) space
