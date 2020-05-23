@@ -139,7 +139,7 @@ Background knowledge:
 
 * **Sorting**
   * [Bubble Sort](src/algorithms/sorting/bubble-sort)
-  * Insertion Sort
+  * [Insertion Sort](src/algorithms/sorting/insertion-sort)
   * Selection Sort
   * Quick Sort
   * Heap Sort
