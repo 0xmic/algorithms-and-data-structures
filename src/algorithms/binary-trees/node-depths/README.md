@@ -35,4 +35,6 @@ __Complexity__:  O(N) Time | O(h) Space
 
 ### Solution2  
 __Strategy__: Iterative approach - use stack to traverse through tree. Start at root node, and add it on top of the stack. For each node in the stack, store the depth. So long as there are nodes in the stack, pop them off the stack and apply the algorithm. Each node adds itself on the stack and passes in its right and left children with their depth d + 1.   
-__Complexity__:  O( ) Time | O( ) Space
+__Complexity__:  O(N) Time | O(h) Space  
+* N = # of nodes in tree  
+* h = height of binary tree  

@@ -38,7 +38,7 @@ Background knowledge:
 ### Algorithms by Category
 * **Arrays**
   * [Two Number Sum](src/algorithms/arrays/two-number-sum)
-  * Validate Subsequence
+  * [Validate Subsequence](src/algorithms/arrays/validate-subsequence)
   * Three Number Sum
   * Smallest Difference
   * Move Element to End
