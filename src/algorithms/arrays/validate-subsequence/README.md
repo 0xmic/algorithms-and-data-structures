@@ -15,9 +15,12 @@ true
 
 ## Solution & Complexity  
 ### Solution 1  
-__Strategy__:  
-__Complextiy__: O( ) Time | O( ) Space  
+__Strategy__: Use 2 pointers - one pointed at the first element in the subsequence, the other pointed at the first element in the main array. Move the main sequence pointer forward until the value matches with the subsequence array pointer. Once found, move the pointer in the subsequence. Continue moving forward the main pointer and compare to the new subsequence index value.  
+Solution 1 uses a while loop and traverse through both arrays in tandem. Two pointers are used to maintain the indexes in each array.  
+__Complextiy__: O(N) Time | O(1) Space  
+* N = length of main array  
 
 ### Solution 2  
-__Strategy__:  
-__Complexity__: O( ) Time | O( ) Space  
+__Strategy__: Same logic as solution 1. Difference in implementation is that a for loop is used to traverse the main array and we will only keep track of our position in the sub array.  
+__Complexity__: O(N) Time | O(1) Space  
+* N = length of main array  
