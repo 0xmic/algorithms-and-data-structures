@@ -64,7 +64,7 @@ Background knowledge:
 
 * **Binary Trees**
   * [Branch Sums](src/algorithms/binary-trees/branch-sums)
-  * Node Depths
+  * [Node Depths](src/algorithms/binary-trees/node-depths)
   * Invert Binary Tree
   * Max Path Sum in Binary Tree
   * Iterative In-order Traversal
