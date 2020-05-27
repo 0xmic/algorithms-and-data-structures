@@ -26,5 +26,5 @@ __Strategy__: Use recursion - if first and last indexes are equal, return isPali
 __Complexity__: O(N) Time | O(N) Space  
 
 ### Solution 4  
-__Strategy__: Iterative solution - create left and right index pointers. If they are equal, move the pointers inwards, if not, return false. Since nothing is stored except for 2 pointers, space complexity is O(1).
+__Strategy__: Iterative solution - create left and right index pointers. If they are equal, move the pointers inwards, if not, return false. Since nothing is stored except for 2 pointers, space complexity is O(1).  
 __Complexity__: O(N) Time | O(1) Space  
