@@ -151,7 +151,7 @@ Background knowledge:
   * Shorten Path
 
 * **Strings**
-  * Palindrome Check
+  * [Palindrome Check](src/algorithms/strings/palindrome-check)
   * Caesar Cipher Encryptor
   * Longest Palindrome Substring
   * Group Anagrams
