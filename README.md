@@ -152,7 +152,7 @@ Background knowledge:
 
 * **Strings**
   * [Palindrome Check](src/algorithms/strings/palindrome-check)
-  * Caesar Cipher Encryptor
+  * [Caesar Cipher Encryptor](src/algorithms/strings/caesar-cipher-encryptor)
   * Longest Palindrome Substring
   * Group Anagrams
   * Longest Substring Without Duplication

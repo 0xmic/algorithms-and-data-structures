@@ -15,9 +15,9 @@ __String Output__:
 
 ## Solution & Complexity  
 ### Solution 1  
-__Strategy__:  
-__Complexity__: O( ) Time | O( ) Space  
+__Strategy__: Use unicode values - each language may have special functions to convert characters to unicode values and vice versa. Mod the key by `key` at the start to ensure multiple alphabet wrap-arounds are reduced to <= 1.  
+__Complexity__: O(N) Time | O(N) Space  
 
 ### Solution 2:  
-__Strategy__:  
-__Complexity__: O( ) Time | O( ) Space
+__Strategy__: Create an alphabet array (all lowercase letters, lowercase and uppercase, HEX, etc.). Reference the array index + key to get the new character values.  
+__Complexity__: O(N) Time | O(N) Space
