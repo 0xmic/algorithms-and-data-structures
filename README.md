@@ -39,7 +39,7 @@ Background knowledge:
 * **Arrays**
   * [Two Number Sum](src/algorithms/arrays/two-number-sum)
   * [Validate Subsequence](src/algorithms/arrays/validate-subsequence)
-  * Three Number Sum
+  * [Three Number Sum](src/algorithms/arrays/three-number-sum)
   * Smallest Difference
   * Move Element to End
   * Monotonic Array
