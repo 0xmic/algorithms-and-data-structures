@@ -40,7 +40,7 @@ Background knowledge:
   * [Two Number Sum](src/algorithms/arrays/two-number-sum)
   * [Validate Subsequence](src/algorithms/arrays/validate-subsequence)
   * [Three Number Sum](src/algorithms/arrays/three-number-sum)
-  * Smallest Difference
+  * [Smallest Difference](src/algorithms/arrays/smallest-difference)
   * Move Element to End
   * Monotonic Array
   * Spiral Traverse
