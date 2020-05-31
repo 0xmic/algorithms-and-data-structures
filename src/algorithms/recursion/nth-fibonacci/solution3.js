@@ -1,7 +1,7 @@
 // STRATEGY:
 // Iterative solution. Store last two fib numbers in an array.
 // COMPLEXITY:
-// O(n) Time | O(n) Space
+// O(n) Time | O(1) Space
 
 function getNthFib(n) {
   const lastTwo = [0, 1];
