@@ -41,7 +41,7 @@ Background knowledge:
   * [Validate Subsequence](src/algorithms/arrays/validate-subsequence)
   * [Three Number Sum](src/algorithms/arrays/three-number-sum)
   * [Smallest Difference](src/algorithms/arrays/smallest-difference)
-  * Move Element to End
+  * [Move Element to End](src/algorithms/arrays/move-element-to-end)
   * Monotonic Array
   * Spiral Traverse
   * Longest Peak
