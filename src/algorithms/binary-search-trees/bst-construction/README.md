@@ -40,4 +40,14 @@ contains(15): true
 
 ## Solution & Complexity  
 __Strategy__:  
-__Complexity__: O( ) Time | O( ) Space
+* __Insertion__ - Start by calling insertion on the root node. Compare the inserted value with the node value. If inserted value > node value, you can eliminate the left half of the tree. Now compare inserted value with the right child node of root. If inserted value < new node value, eliminate the right half of the tree. Continue until you reach a null node.  
+* __Searching__ - Similar to insertion, compare the searched value with the root node value. If searched value > node value, eliminate left of tree and check node.right. If searched value < node value, eliminate the right of the tree and check node.left. If you reach a node where node.value = searched value, return true. Else, if you reach a null node, return false.
+* __Deletion__ - You can think of deletion with two cases. If you don't find the value, do nothing. If you do find the value, implement additional functionality. If you want to delete a child node, simply delete it. If you want to remove a node with only 1 child node, simply move the child node to the position of the deleted parent node. If you want to remove a node with 2+ children, you must re-balance the children of the node. This is done by grabbing the smallest value of the right sub-tree of that node. Replace the deleted node's value with the smallest right-subtree value. 
+__Complexity__: Insertion, Searching, Deletion  
+Recursive Solution:  
+Average: O(log(N)) Time | O(log(N)) Space  
+Worst: O(N) Time | O(N) Space  
+
+Iterative Solution:  
+Average: O(log(N)) Time | O(log(1)) Space  
+Worst: O(N) Time | O(1) Space  
