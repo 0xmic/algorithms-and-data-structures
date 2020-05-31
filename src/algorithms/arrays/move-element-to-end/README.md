@@ -14,5 +14,8 @@ __Sample Output__:
 ```
 
 ## Solution & Complexity  
-__Strategy__:  
-__Complexity__: O( ) Time | O( ) Space  
+__Strategy__: One can immediately start thinking of complexity, and assume there a solution with nlog(n) time if we were to sort the array. However, one can solve in log(n) time by using two pointers `i` and `j` that start at the beginning and end of the array. `i` will be used to swap numbers to the beginning of the array, `j` will be used to swap numbers to the end of the array.  
+Start at the end of the array. In our example, `j` is already pointing at `2`, so we decrement `j` by 1 to point at `4`, which would be a good candidate to swap to the front.  
+Next, look at `i`, pointing at `2`. `i` is a good candidate to swap to the back of the array. Now that both `i` and `j` want to move to the opposite ends of the array, swap `i` and `j`.  
+Continue traversing the array from both ends, swapping `i` and `j` once they both have candidates to change position. Once `i >= j`, return our array.  
+__Complexity__: O(N) Time | O(1) Space  
