@@ -56,7 +56,7 @@ Background knowledge:
 * **Binary Search Trees**
   * [Find Closest Value in BST](src/algorithms/binary-search-trees/closest-val-in-BST)
   * [BST Construction](src/algorithms/binary-search-trees/bst-construction)
-  * Validate BST
+  * [Validate BST](src/algorithms/binary-search-trees/validate-bst)
   * BST Traversal
   * Min Height BST
   * Same BSTs
