@@ -23,4 +23,9 @@ true
 
 ## Solution & Complexity  
 __Strategy__:  
-__Complexity__: O( ) time | O( ) space
+Use divide and conquer approach. Start at root node, and validate each sub-tree at a time. Continue validating each left and right-sub tree until result is found.  
+Each node in a (sub)tree has a minimum and maximum value, dependent on the parent node value and relative position. As we traverse the tree, evaluate whether a node's value is within a min and max value. This will be accomplished with a helper method that takes in a tree/node, a min value, and a max value.  
+Once we reach a null value, we can validate the BST and climb back up the tree.  
+__Complexity__: O(N) Time | O(d) space  
+* N = # of nodes in the tree  
+* d = depth of the tree
