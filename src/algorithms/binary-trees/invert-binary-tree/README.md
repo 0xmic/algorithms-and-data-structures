@@ -26,4 +26,10 @@ __Sample Output__:
 
 ## Solution & Complexity  
 __Strategy__:  
-__Complexity__: O( ) Time | O( ) Space
+* Iterative - Start by initializing a queue. Traverse the tree in a Breadth First Sdarch manner and swap a node's child nodes at each step, placing the child nodes in the queue. Continue popping nodes off the queue and swapping its children until the queue is empty. Null nodes should be swapped and included in the queue to account for nodes with only one child. A check can be added to skip popping off null nodes.  
+* Recursive - Start at the root node. Swap its left and right nodes nodes. Call the same recursive function on the left and right nodes. Continue until you hit a null leaf node.  
+__Complexity__:  
+Iterative: O(N) Time | O(N) Space  
+Recursive: O(N) Time | O(d) Space  
+* N = # of nodes
+* d = depth of tree
