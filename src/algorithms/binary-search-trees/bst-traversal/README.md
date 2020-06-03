@@ -25,4 +25,8 @@ postOrderTraverse: [1, 2, 5, 5, 22, 15, 10] // where the array is the input arra
 
 ## Solution & Complexity  
 __Strategy__:  
-__Complexity__: O( ) Time | O( ) Space
+* In Order Traversal: The BST should be traversed in ascending order. In Order Traversal always looks at the left node, then the current node, then the right node. At any node, start by calling the inOrderTraversal fxn on the left subtree, then array.append(currentVal), then call inOrderTraversal on the right subtree.  
+* Pre-Order Traversal: Wants you to append the current value of the array before searching the left and right subtree.  
+* Post-Order Traversal: Wants you to append the current value of the array after searching the left and right subtree.~
+__Complexity__: O(N) Time | O(N) Space  
+* N = # of nodes
