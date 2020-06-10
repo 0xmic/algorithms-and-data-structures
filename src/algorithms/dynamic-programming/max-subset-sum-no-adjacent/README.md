@@ -20,12 +20,12 @@ array = [7, 10, 12, 7, 9, 14] // test data
 maxSums = [7, 10, 19, 19, 28, 33] // test data  
 
 maxSums[i] = max { 1) maxSums[i-1]  
-				 { 2) maxSums[i-2] + array[i]
+                 { 2) maxSums[i-2] + array[i]
 ```  
 
-Time Complexity: Since we iterate through the array and run a constant time operation, time complexity is O(N), where N equals the input length. Space complexity is O(N) since we build an array of N size.
+Time Complexity - Since we iterate through the array and run a constant time operation, time complexity is O(N), where N equals the input length. Space complexity is O(N) since we build an array of N size.
 
-How can this be improved? Since we only need to reference maxSums[i-1] and maxSums[i-2], we can continually update these references and reduce our space complexity to O(1).
+How can this be improved? Since we only need to reference maxSums[i-1] and maxSums[i-2], we can continually update these references and reduce our space complexity to O(1).  
 __Complexity__:  
 Solution 1: O(N) Time | O(N) Space  
 Solution 2: O(N) Time | O(1) Space  
