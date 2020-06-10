@@ -73,7 +73,7 @@ Background knowledge:
   * All Kinds of Node Depths
 
 * **Dynamic Programming**
-  * [Max Subset Sum No Adjacent](src/algorithms/dynamic-programming/max-subset-sum-no-adjacent]
+  * [Max Subset Sum No Adjacent](src/algorithms/dynamic-programming/max-subset-sum-no-adjacent)
   * Number of Ways to Make Change
   * Min Number of Coins for Change
   * Levenshtein Distance
