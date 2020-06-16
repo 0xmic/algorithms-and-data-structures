@@ -15,5 +15,5 @@ __Sample Output__:
 ```
 
 ## Complexity & Solution  
-__Strategy__:  
+__Strategy__: Create an array. ~  
 __Complexity__: O( ) Time | O( ) Space  
