@@ -18,4 +18,12 @@ __Sample Output__
 __Strategy__:  
 * Build an array of the minimum number of coins needed to make change for all amounts between 0 and n inclusive. Note that no coins are needed to make change for 0: in order to make change for 0, you do not need to use any coins.  
 * Build up the array one denomination at a time. In other words, find the minimum number of coins needed to make change for all amounts between 0 and n with only one denomination, then with two, etc., until you use all denominations.  
-__Complexity: O( ) Time | O( ) Space
+* Apply the following formula while iterating through the array: 
+```
+if denom <= amount: 
+    nums[amount] = min(nums[amount],  
+                       1 + nums[amount - denom])  
+```
+__Complexity__: O(Nd) Time | O(N) Space  
+* N = target amount
+* d = # of denominations
