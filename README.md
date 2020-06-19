@@ -76,7 +76,7 @@ Background knowledge:
   * [Max Subset Sum No Adjacent](src/algorithms/dynamic-programming/max-subset-sum-no-adjacent)
   * [Number of Ways to Make Change](src/algorithms/dynamic-programming/number-of-ways-to-make-change)
   * [Min Number of Coins for Change](src/algorithms/dynamic-programming/min-number-of-coins-for-change)
-  * Levenshtein Distance
+  * [Levenshtein Distance](src/algorithms/dynamic-programming/levenshtein-distance)
   * Max Sum Increasing Subsequence
   * Longest Common Subsequence
   * Min Number of Jumps
