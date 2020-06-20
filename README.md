@@ -91,7 +91,7 @@ Background knowledge:
   * Square of Zeroes
 
 * **Famous Algorithms**
-  * Kadane's Algorithm
+  * [Kadane's Algorithm](src/algorithms/famous-algorithms/kadanes-algorithm)
   * Topological Sort
   * Knuth-Morris-Pratt Algorithm
 
