@@ -19,4 +19,11 @@ __Sample Output__
 ```
 ## Solution & Complexity  
 __Strategy__:  
-__Complexity__: O( ) Time | O( ) Space
+* The Breadth-first Search algorithm works by traversing a graph level by level. In other words, before traversing any Node's children Nodes, its sibling nodes must be traversed. How can you simply and effectively keep track of Nodes' children Nodes as you traverse them, all the while retaining the order in which you must traverse them?  
+* You can use a queue to store all of the future Nodes that you will need to explore as you traverse the graph. By adding Nodes' children Nodes to the queue every time you explore them and by using the First-In-First-Out property of the queue, you can traverse the graph in a Breadth-first Search way. Don't forget to add every Node's name to the input array as you traverse the graph.  
+
+__Complexity__: O(V + E) Time | O(V) Space  
+* V = # of vertices of the input graph  
+* E = # of edges of the input graph  
+
+Time Complexity: Throughout the algorithm, you traverse each node at least once to add it to the final array. Thus, you definitely have O(V) in the time complexity. Also, for each node, you add its children nodes to the queue, which is equal to the number of edges in the tree, adding O(E).

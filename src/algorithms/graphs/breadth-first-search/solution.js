@@ -9,8 +9,19 @@ class Node {
     return this;
   }
 
+  // O(v + e) time | O(v) space
+  // v = # vertices
+  // e = # edges
   breadthFirstSearch(array) {
-    // TODO
+    const queue = [this];
+    while (queue.length > 0) {
+      const current = queue.shift();
+      array.push(current.name);
+      for (const child of current.children) {
+        queue.push(child);
+      }
+    }
+    return array;
   }
 }
 

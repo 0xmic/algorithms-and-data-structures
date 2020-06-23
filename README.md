@@ -98,7 +98,7 @@ Background knowledge:
 * **Graphs**
   * [Depth-first Search](src/algorithms/graphs/depth-first-search)
   * [Single Cycle Check](src/algorithms/graphs/single-cycle-check)
-  * Breadth-first Search
+  * [Breadth-first Search](src/algorithms/graphs/breadth-first-search)
   * River Sizes
   * Youngest Common Ancestor
   * Boggle Board
