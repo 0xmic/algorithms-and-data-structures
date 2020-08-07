@@ -99,7 +99,7 @@ Background knowledge:
   * [Depth-first Search](src/algorithms/graphs/depth-first-search)
   * [Single Cycle Check](src/algorithms/graphs/single-cycle-check)
   * [Breadth-first Search](src/algorithms/graphs/breadth-first-search)
-  * River Sizes
+  * [River Sizes](src/algorithms/graphs/river-sizes)
   * Youngest Common Ancestor
   * Boggle Board
   * Rectangle Mania
