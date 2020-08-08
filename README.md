@@ -100,7 +100,7 @@ Background knowledge:
   * [Single Cycle Check](src/algorithms/graphs/single-cycle-check)
   * [Breadth-first Search](src/algorithms/graphs/breadth-first-search)
   * [River Sizes](src/algorithms/graphs/river-sizes)
-  * Youngest Common Ancestor
+  * [Youngest Common Ancestor](src/algorithms/graphs/youngest-common-ancestor)
   * Boggle Board
   * Rectangle Mania
   * Airport Connections
