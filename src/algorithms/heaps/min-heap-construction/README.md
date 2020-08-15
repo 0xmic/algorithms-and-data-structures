@@ -21,18 +21,19 @@ peek(): 2
 remove(): 2 [6, 7, 8, 24, 8, 24, 24 ,391, 76, 56, 12, 41, 48]  
 peek() 6  
 insert(87): - [6, 7, 8, 24, 8, 24, 24, 391, 76, 56, 12, 41, 48, 87]  
-```
+```  
 
 ## Solution & Complexity  
 __Strategy__:  
-* For the buildHeap(), remove(), and insert() methods of the Heap, you will need to use the siftDown() and siftUp() methods. These two methods should essentially allow you to take any node in the heap and move it either down or up in the heap until it's in the final, appropriate position. This can e done be comparing the node in question to its child nodes in the case of siftDown() or to its parent node in the case of siftUp().  
-* In an array-based Heap, you can easily access a node's children nodes and parent node by using the nodes' indices. If a node is located at index i, then its children nodes are located at indices 2 * i + 1 and 2 * i + 2, and its parent node is located at index Mathh.floor((i - 1)/2).  
+* For the buildHeap(), remove(), and insert() methods of the Heap, you will need to use the siftDown() and siftUp() methods. These two methods should essentially allow you to take any node in the heap and move it either down or up in the heap until it's in the final, appropriate position. This can be done by comparing the node in question to its child nodes in the case of siftDown() or to its parent node in the case of siftUp().  
+* In an array-based Heap, you can easily access a node's children nodes and parent node by using the nodes' indices. If a node is located at index i, then its children nodes are located at indices 2 * i + 1 and 2 * i + 2, and its parent node is located at index Math.floor((i - 1)/2).  
 * To implement the buildHeap() method, you can either sift every node in the input array down to its final, correct position, or you can sift every node in the input array up to its final, correct position. What are the runtime implications of both approaches? Which methods (siftDown() or siftUp()) will insert() and remove() utilize? What about peek()?  
 
 __Comlexity__:  
-BuildHeap: O( ) Time | O( ) Space  
-SiftDown: O( ) Time | O( ) Space  
-SiftUp: O( ) Time | O( ) Space  
-Peek: O( ) Time | O( ) Space  
-Remove: O( ) Time | O( ) Space  
-Insert: O( ) Time | O( ) Space
+BuildHeap: O(N) Time | O(1) Space  
+SiftDown: O(log(N)) Time | O(1) Space  
+SiftUp: O(log(N)) Time | O(1) Space  
+Peek: O(1) Time | O(1) Space  
+Remove: O(log(n)) Time | O(1) Space  
+Insert: O(log(n)) Time | O(1) Space  
+* N = # of items in the heap

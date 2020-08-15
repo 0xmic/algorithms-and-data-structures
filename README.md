@@ -106,7 +106,7 @@ Background knowledge:
   * Airport Connections
 
 * **Heaps**
-  * Main Heap Construction
+  * [Main Heap Construction](src/algorithms/heaps/min-heap-construction)
   * Continuous Median
   * Merge Sorted Arrays
 
