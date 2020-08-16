@@ -112,7 +112,7 @@ Background knowledge:
 
 * **Linked Lists**
   * [Linked List Construction](src/algorithms/linked-lists/linked-list-construction)
-  * Remove Kth Node from End
+  * [Remove Kth Node from End](src/algorithms/linked-lists/remove-kth-node-from-end)
   * Find Loop
   * Reverse Linked List
   * Merge Linked Lists
