@@ -30,5 +30,6 @@ __Strategy__:
 * Since you are given a Singly Linked List, you do not have access to any of the list's nodes' previous nodes. Thus, traversing the entire list and then counting k nodes back isn't an option. You can instead traverse the entire list and try to know which node is the kth node from the end by the time you reach the final node in the list.  
 * One way to achieve this is by traversing the list while keeping track of two nodes at a time.  
 * Initialize two variables pointing at the first node in the list. Traverse k nodes in the list, updating the second variable at every node (that is, take k steps with with the first variable as the number of steps between the kth node from the start and the end of the list). Once you reach the end of the list, the first variable should point to the kth node from the end.  
+
 __Complexity__: O(N) Time | O(1) Space  
 * N = # of nodes in the linked list
