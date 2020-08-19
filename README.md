@@ -124,7 +124,7 @@ Background knowledge:
   * [Nth Fibonacci](src/algorithms/recursion/nth-fibonacci)
   * [Product Sum](src/algorithms/recursion/product-sum)
   * [Permutations](src/algorithms/recursion/permutations)
-  * Powerset
+  * [Powerset](src/algorithms/recursion/powerset)
   * Lowest Common Manager
   * Interweaving Strings
   * Number of Binary Tree Topologies
