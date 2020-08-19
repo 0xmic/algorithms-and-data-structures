@@ -123,7 +123,7 @@ Background knowledge:
 * **Recursion**
   * [Nth Fibonacci](src/algorithms/recursion/nth-fibonacci)
   * [Product Sum](src/algorithms/recursion/product-sum)
-  * Permutations
+  * [Permutations](src/algorithms/recursion/permutations)
   * Powerset
   * Lowest Common Manager
   * Interweaving Strings
