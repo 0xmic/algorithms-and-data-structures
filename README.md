@@ -131,8 +131,8 @@ Background knowledge:
 
 * **Searching**
   * [Binary Search](src/algorithms/searching/binary-search)
-  * Find Three Largest Numbers
-  * Search in Sorted Matrix
+  * [Find Three Largest Numbers](src/algorithms/searching/find-three-largest-numbers)
+  * [Search in Sorted Matrix](src/algorithms/searching/search-in-sorted-matrix)
   * Shifted Binary Search
   * Search For Range
   * Quickselect
