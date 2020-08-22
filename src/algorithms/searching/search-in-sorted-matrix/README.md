@@ -21,5 +21,9 @@ __Sample Output__:
 
 ## Solution & Complexity  
 __Strategy__:  
-* Pick any number in the matrix and compare it to the target number. If this number is bigger than the target number, this tells you the target number can only be in the area above and to the left of the chosen number. Similarly, if this number is smaller than the target number, the target number can only be in the area to the right and below the chosen number.  
+* Pick any number in the matrix and compare it to the target number. If this number is bigger than the target number, this tells you the target number isn't either below or to the right of the chosen number. Similarly, if this number is smaller than the target number, the target number isn't either above or to the left of the chosen number.   
 * You can start at the top right corner of the matrix, comparing the number there to the target number, and using whatever gathered from the first point to figure out what number to compare next if the top right number isn't equal to the target number. Continue until you find the target number of you get past the extremities of the matrix.  
+
+__Complexity__: O(N + M) Time | O(1) Space  
+* N = length of the matrix's rows  
+* M = length of the matrix's columns
