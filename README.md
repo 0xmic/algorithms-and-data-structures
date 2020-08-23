@@ -146,7 +146,7 @@ Background knowledge:
   * Merge Sort
 
 * **Stacks**
-  * Min Max Stack Construction
+  * [Min Max Stack Construction](src.algorithms/stacks/min-max-stack-construction)
   * Balanced Brackets
   * Shorten Path
 
