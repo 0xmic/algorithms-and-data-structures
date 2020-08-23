@@ -161,7 +161,7 @@ Background knowledge:
   * Smallest Substring Containing
 
 * **Tries**
-  * Suffix Triie Construction
+  * Suffix Trie Construction
   * Multi String Search
 
 ## Useful Resources
