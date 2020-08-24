@@ -147,7 +147,7 @@ Background knowledge:
 
 * **Stacks**
   * [Min Max Stack Construction](src/algorithms/stacks/min-max-stack-construction)
-  * Balanced Brackets
+  * [Balanced Brackets](src/algorithms/stacks/balanced-brackets)
   * Shorten Path
 
 * **Strings**
