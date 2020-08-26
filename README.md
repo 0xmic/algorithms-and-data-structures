@@ -154,7 +154,7 @@ Background knowledge:
   * [Palindrome Check](src/algorithms/strings/palindrome-check)
   * [Caesar Cipher Encryptor](src/algorithms/strings/caesar-cipher-encryptor)
   * [Longest Palindromic Substring](src/algorithms/strings/longest-palindromic-substring)
-  * Group Anagrams
+  * [Group Anagrams](src/algorithms/strings/group-anagrams)
   * Longest Substring Without Duplication
   * Underscorify Substring
   * Pattern Matcher
