@@ -44,7 +44,7 @@ Background knowledge:
   * [Move Element to End](src/algorithms/arrays/move-element-to-end)
   * Monotonic Array
   * Spiral Traverse
-  * Longest Peak
+  * [Longest Peak](src/algorithms/arrays/longest-peak)
   * Four Number Sum
   * Subarray Sort
   * Largest Range
