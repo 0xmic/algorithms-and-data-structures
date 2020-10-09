@@ -12,5 +12,11 @@ __Sample Output__:
 ```
 
 ## Solution & Complexity  
-__Strategy__: Divide list into 2; one side represents unsorted numbers, the other sorted. Start with unsorted list the size of the array and an empty sorted list. Iterate through unsorted list and find the smallest number - append the smallest number to the sorted list. Repeat until the unsorted list only has 1 entry left - the largest number.  
-__Complexity__: O(N<sup>2</sup>) time | O(1) space
+__Strategy__:  
+* Divide the input array into two subarrays in place. The first subarray should be sorted at all times and should start with a length of 0, while the second subarray should be unsorted. Find the smallest (or largest) element in the unsorted subarray and insert it into the sorted subarray with a swap. Repeat this process of finding the smallest (or largest) element in the unsorted subarray and inserting it in its correct position in the sorted subarray with a swap until the entire array is sorted.  
+
+__Complexity__:  
+* Best: O(N<sup>2</sup>) Time | O(1) Space  
+* Average: O(N<sup>2</sup>) Time | O(1) Space  
+* Worst: O(N<sup>2</sup>) Time | O(1) Space  
+* N = length of the input array
