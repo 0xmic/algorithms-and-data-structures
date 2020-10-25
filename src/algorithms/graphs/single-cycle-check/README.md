@@ -17,7 +17,7 @@ true
 __Strategy__:  
 * In order to check if the input array has a single cycle, you have to jump through all of the elements in the array. You can keep a counter, jump through elements in the array, and stop once you've jumped through as many elements as are contained in the array.  
 * Assume the input array has length `n`. If you start at index `0` and jump through `n` elements, if at any point you jump through `m` elements where `m < n` and you are back at index(0), then you know you have a cycle that does not include all numbers in the array.
-* Given the above point, there are 2 conditions that need to be met for the input array to have a single cycle. First, the starting element (in this case, the element at index 0) cannot be jumped through more than once, at the very beginning, so long as you haven't jumped through all of the other elements in the array. Second, the `(n+1)th` element you jump through, where `n` is the length of the array, must be the first element you visited: the element at index 0 in this case.  
+* Given the above point, there are 2 conditions that need to be meet for the input array to have a single cycle. First, the starting element (in this case, the element at index 0) cannot be jumped through more than once, at the very beginning, so long as you haven't jumped through all of the other elements in the array. Second, the `(n+1)th` element you jump through, where `n` is the length of the array, must be the first element you visited: the element at index 0 in this case.  
 
 __Complexity__: O(N) Time | O(1) Space  
 * N = # of elements in the input array
