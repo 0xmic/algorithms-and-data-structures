@@ -1,6 +1,6 @@
 # Algorithms and Data Structures
 
-This repository contains examples of many popular algorithms and data structures. Examples will be based in popular programming languages with an emphasis on JavaScript.
+This repository contains examples of many popular algorithms and data structures. Examples are written primarily in JavaScript, Python and Go.
 
 Each algorithm and data structure has its own separate README with related explanations and links for further reading.
 
@@ -107,6 +107,3 @@ Background knowledge:
 
 * **Tries**
   * [Suffix Trie Construction](src/algorithms/tries/suffix-trie-construction)
-
-## Useful Resources
-* [JavaScript Algorithms](https://github.com/trekhleb/javascript-algorithms)
