@@ -13,10 +13,10 @@ function twoNumberSum(array, targetSum) {
 			return [num, potentialMatch];
 		} else {
 			nums[num] = true;
-		}
-	}
+		};
+	};
 	
 	return [];
-}
+};
 
 exports.twoNumberSum = twoNumberSum;

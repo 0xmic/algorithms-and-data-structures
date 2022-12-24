@@ -11,11 +11,11 @@ function twoNumberSum(array, targetSum) {
             const secondNum = array[j];
             if (firstNum + secondNum === targetSum) {
                 return [firstNum, secondNum];
-            }
-        }
-    }
+            };
+        };
+    };
     
     return [];
-}
+};
 
 exports.twoNumberSum = twoNumberSum;

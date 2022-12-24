@@ -9,7 +9,7 @@ function twoNumberSum(array, targetSum) {
     let right = array.length - 1;
 
     while (left < right) {
-        const currentSum = array[left] + array[right]
+        const currentSum = array[left] + array[right];
 
         if (currentSum === targetSum) {
             return [array[left], array[right]];
@@ -17,10 +17,10 @@ function twoNumberSum(array, targetSum) {
             left++;
         } else if (currentSum > targetSum) {
             right--;
-        }
-    }
+        };
+    };
 
     return [];
-}
+};
 
 exports.twoNumberSum = twoNumberSum;
