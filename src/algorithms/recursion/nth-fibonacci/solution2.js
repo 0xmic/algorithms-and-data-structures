@@ -9,7 +9,7 @@ function getNthFib(n, memoize = {1: 0, 2: 1}) {
 	} else {
 		memoize[n] = getNthFib(n - 1, memoize) + getNthFib(n - 2, memoize);
 		return memoize[n];
-	}
-}
+	};
+};
 
 exports.getNthFib = getNthFib;

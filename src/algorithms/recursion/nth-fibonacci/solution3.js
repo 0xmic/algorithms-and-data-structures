@@ -11,8 +11,8 @@ function getNthFib(n) {
   	lastTwo[0] = lastTwo[1];
   	lastTwo[1] = nextFib;
   	counter++;
-  }
+  };
   return n > 1 ? lastTwo[1] : lastTwo[0];
-}
+};
 
 exports.getNthFib = getNthFib;
