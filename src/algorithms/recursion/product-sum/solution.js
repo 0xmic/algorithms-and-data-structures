@@ -6,9 +6,9 @@ function productSum(array, multiplier = 1) {
 			sum += productSum(element, multiplier + 1);
 		} else {
 			sum += element;
-		}
-	}
+		};
+	};
 	return sum * multiplier;
-}
+};
 
 exports.productSum = productSum;
