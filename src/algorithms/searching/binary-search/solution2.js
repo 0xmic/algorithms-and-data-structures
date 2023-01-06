@@ -13,9 +13,9 @@ function binarySearchHelper(array, target, left, right) {
 			right = middle - 1;
 		} else {
 			left = middle + 1;
-		}
-	}
+		};
+	};
 	return -1;
-}
+};
 
 exports.binarySearch = binarySearch;
