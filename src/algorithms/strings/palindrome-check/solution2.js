@@ -5,6 +5,6 @@ function isPalindrome(string) {
 		reversedChars.push(string[i]);
 	}
 	return string === reversedChars.join('');
-}
+};
 
 exports.isPalindrome = isPalindrome;
