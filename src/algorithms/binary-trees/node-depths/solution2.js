@@ -10,9 +10,9 @@ function nodeDepths(root) {
   	sumOfDepths += depth;
   	stack.push({node: node.left, depth: depth + 1});
   	stack.push({node: node.right, depth: depth + 1});
-  }
+  };
   return sumOfDepths;
-}
+};
 
 // This is the class of the input binary tree.
 class BinaryTree {
@@ -20,7 +20,7 @@ class BinaryTree {
     this.value = value;
     this.left = null;
     this.right = null;
-  }
-}
+  };
+};
 
 exports.nodeDepths = nodeDepths;
