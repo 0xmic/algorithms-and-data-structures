@@ -8,22 +8,22 @@ function longestPeak(array) {
 		if (!isPeak) {
 			i++;
 			continue;
-		}
+		};
 
 		let leftIdx = i - 2;
 		while (leftIdx >= 0 && array[leftIdx] < array[leftIdx + 1]) {
 			leftIdx--;
-		}
+		};
 		let rightIdx = i + 2;
 		while (rightIdx < array.length && array[rightIdx] < array[rightIdx - 1]) {
 			rightIdx++;
-		}
+		};
 
 		const currentPeakLength = rightIdx - leftIdx - 1;
 		longestPeakLength = Math.max(longestPeakLength, currentPeakLength);
 		i = rightIdx;
-	}
+	};
 	return longestPeakLength;
-}
+};
 
 exports.longestPeak = longestPeak;
