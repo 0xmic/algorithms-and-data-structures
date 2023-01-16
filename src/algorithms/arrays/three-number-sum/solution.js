@@ -15,10 +15,10 @@ function threeNumberSum(array, targetSum) {
 				left++;
 			} else if (currentSum > targetSum) {
 				right--;
-			}
-		}
-	}
+			};
+		};
+	};
 	return triplets;
-}
+};
 
 exports.threeNumberSum = threeNumberSum;
