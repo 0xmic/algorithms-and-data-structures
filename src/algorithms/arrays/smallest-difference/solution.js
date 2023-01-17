@@ -20,13 +20,13 @@ function smallestDifference(arrayOne, arrayTwo) {
 			idxTwo++;
 		} else {
 			return [firstNum, secondNum];
-		}
+		};
 		if (smallest > current) {
 			smallest = current;
 			smallestPair = [firstNum, secondNum];
-		}
-	}
+		};
+	};
 	return smallestPair;
-}
+};
 
 exports.smallestDifference = smallestDifference;
