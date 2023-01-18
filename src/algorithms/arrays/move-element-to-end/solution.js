@@ -6,14 +6,14 @@ function moveElementToEnd(array, toMove) {
 		while (i < j && array[j] === toMove) j--;
 		if (array[i] === toMove) swap(i, j, array);
 		i++;
-	}
+	};
 	return array;
-}
+};
 
 function swap(i, j, array) {
 	const temp = array[j];
 	array[j] = array[i];
 	array[i] = temp;
-}
+};
 
 exports.moveElementToEnd = moveElementToEnd;
