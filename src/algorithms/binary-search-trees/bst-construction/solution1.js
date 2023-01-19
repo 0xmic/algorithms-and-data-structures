@@ -4,7 +4,7 @@ class BST {
     this.value = value;
     this.left = null;
     this.right = null;
-  }
+  };
 
   // Average: O(log(n)) time | O(1) space
   // Worst: O(n) time | O(1) space
@@ -17,18 +17,18 @@ class BST {
           break;
         } else {
           currentNode = currentNode.left;
-        }
+        };
       } else {
         if (currentNode.right === null) {
           currentNode.right = new BST(value);
           break;
         } else {
           currentNode = currentNode.right;
-        }
-      }
-    }
+        };
+      };
+    };
     return this;
-  }
+  };
 
   // Average: O(log(n)) | O(1) space
   // Worst: O(n) time | O(1) space
@@ -41,10 +41,10 @@ class BST {
         currentNode = currentNode.right;
       } else {
         return true;
-      }
-    }
+      };
+    };
     return false;
-  }
+  };
 
   // Average O(log(n)) time | O(1) space
   // Worst: O(n) time | O(1) space
@@ -72,17 +72,17 @@ class BST {
             currentNode.right = currentNode.right.right;
           } else {
             // This is a single-node tree; do nothing.
-          }
+          };
         } else if (parentNode.left === currentNode) {
           parentNode.left = currentNode.left !== null ? currentNode.left : currentNode.right;
         } else if (parentNode.right === currentNode) {
           parentNode.right = currentNode.left !== null ? currentNode.left : currentNode.right;
-        }
+        };
         break;
-      }
-    }
+      };
+    };
     return this;
-  }
+  };
 
   getMinValue() {
     let currentNode = this;
@@ -90,7 +90,7 @@ class BST {
       currentNode = currentNode.left;
     }
     return currentNode.value;
-  }
-}
+  };
+};
 
 exports.BST = BST;
