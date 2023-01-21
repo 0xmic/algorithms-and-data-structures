@@ -4,9 +4,9 @@ function inOrderTraverse(tree, array) {
   	inOrderTraverse(tree.left, array);
   	array.push(tree.value);
   	inOrderTraverse(tree.right, array);
-  }
+  };
   return array;
-}
+};
 
 // O(n) time | O(n) space
 function preOrderTraverse(tree, array) {
@@ -14,9 +14,9 @@ function preOrderTraverse(tree, array) {
   	array.push(tree.value);
   	preOrderTraverse(tree.left, array);
   	preOrderTraverse(tree.right, array);
-  }
+  };
   return array;
-}
+};
 
 // O(n) time | O(n) space
 function postOrderTraverse(tree, array) {
@@ -24,9 +24,9 @@ function postOrderTraverse(tree, array) {
   	postOrderTraverse(tree.left, array);
   	postOrderTraverse(tree.right, array);
   	array.push(tree.value);
-  }
+  };
   return array;
-}
+};
 
 // Do not edit the lines below.
 exports.inOrderTraverse = inOrderTraverse;
