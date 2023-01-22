@@ -8,13 +8,13 @@ function invertBinaryTree(tree) {
   	swapLeftAndRight(current);
   	queue.push(current.left);
   	queue.push(current.right);
-  }
-}
+  };
+};
 
 function swapLeftAndRight(tree) {
 	const left = tree.left;
 	tree.left = tree.right;
 	tree.right = left
-}
+};
 
 exports.invertBinaryTree = invertBinaryTree;
