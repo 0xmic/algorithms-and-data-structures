@@ -8,8 +8,8 @@ function maxSubsetSumNoAdjacent(array) {
   	const current = Math.max(first, second + array[i]);
   	second = first;
   	first = current;
-  }
+  };
   return first;
-}
+};
 
 exports.maxSubsetSumNoAdjacent = maxSubsetSumNoAdjacent;
