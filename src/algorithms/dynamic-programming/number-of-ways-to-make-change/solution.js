@@ -6,10 +6,10 @@ function numberOfWaysToMakeChange(n, denoms) {
   	for (let amount = 1; amount < n + 1; amount++) {
   		if (denom <= amount) {
   			ways[amount] += ways[amount - denom];
-  		}
-  	}
-  }
+  		};
+  	};
+  };
   return ways[n];
-}
+};
 
 exports.numberOfWaysToMakeChange = numberOfWaysToMakeChange;
