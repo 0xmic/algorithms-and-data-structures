@@ -6,8 +6,8 @@ function kadanesAlgorithm(array) {
     	const num = array[i];
     	maxEndingHere = Math.max(num, maxEndingHere + num);
     	maxSoFar = Math.max(maxSoFar, maxEndingHere);
-    }
+    };
     return maxSoFar;
-}
+};
 
 exports.kadanesAlgorithm = kadanesAlgorithm;
