@@ -6,10 +6,10 @@ function riverSizes(matrix) {
 		for (let j = 0; j < matrix[i].length; j++) {
 			if (visited[i][j]) continue;
 			traverseNode(i, j, matrix, visited, sizes);
-		}
-	}
+		};
+	};
 	return sizes;
-}
+};
 
 function traverseNode(i, j, matrix, visited, sizes) {
 	let currentRiverSize = 0;
@@ -25,10 +25,10 @@ function traverseNode(i, j, matrix, visited, sizes) {
 		const unvisitedNeighbors = getUnvisitedNeighbors(i, j, matrix, visited);
 		for (const neighbor of unvisitedNeighbors) {
 			nodesToExplore.push(neighbor);
-		}
-	}
+		};
+	};
 	if (currentRiverSize > 0) sizes.push(currentRiverSize);
-}
+};
 
 function getUnvisitedNeighbors(i, j, matrix, visited) {
 	const unvisitedNeighbors = [];
@@ -37,6 +37,6 @@ function getUnvisitedNeighbors(i, j, matrix, visited) {
 	if (j > 0 && !visited[i][j - 1]) unvisitedNeighbors.push([i, j - 1]);
 	if (j < matrix[0].length - 1 && !visited[i][j + 1]) unvisitedNeighbors.push([i, j + 1]);
 	return unvisitedNeighbors;
-}
+};
 
 exports.riverSizes = riverSizes;
