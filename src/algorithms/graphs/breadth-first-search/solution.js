@@ -2,12 +2,12 @@ class Node {
   constructor(name) {
     this.name = name;
     this.children = [];
-  }
+  };
 
   addChild(name) {
     this.children.push(new Node(name));
     return this;
-  }
+  };
 
   // O(v + e) time | O(v) space
   // v = # vertices
@@ -19,10 +19,10 @@ class Node {
       array.push(current.name);
       for (const child of current.children) {
         queue.push(child);
-      }
-    }
+      };
+    };
     return array;
-  }
-}
+  };
+};
 
 exports.Node = Node;
