@@ -6,9 +6,9 @@ function powerset(array) {
   	for (let i = 0; i < length; i++) {
   		const currentSubset = subsets[i];
   		subsets.push(currentSubset.concat(ele));
-  	}
-  }
+  	};
+  };
   return subsets;
-}
+};
 
 exports.powerset = powerset;
