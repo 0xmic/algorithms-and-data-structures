@@ -9,9 +9,9 @@ function searchInSortedMatrix(matrix, target) {
   		row++;
   	} else {
   		return [row, col];
-  	}
-  }
+  	};
+  };
   return [-1, -1];
-}
+};
 
 exports.searchInSortedMatrix = searchInSortedMatrix;
