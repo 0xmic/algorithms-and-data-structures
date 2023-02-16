@@ -9,9 +9,9 @@ function groupAnagrams(words) {
 			anagrams[sortedWord].push(word);
 		} else {
 			anagrams[sortedWord] = [word];
-		}
-	}
+		};
+	};
 	return Object.values(anagrams);
-}
+};
 
 exports.groupAnagrams = groupAnagrams;

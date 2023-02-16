@@ -22,16 +22,16 @@ function groupAnagrams(words) {
 		if (sortedWord === currentAnagram) {
 			currentAnagramGroup.push(word);
 			continue;
-		}
+		};
 
 		result.push(currentAnagramGroup);
 		currentAnagramGroup = [word];
 		currentAnagram = sortedWord;
-	}
+	};
 
 	result.push(currentAnagramGroup);
 
 	return result;
-}
+};
 
 exports.groupAnagrams = groupAnagrams;
