@@ -20,5 +20,5 @@ __Strategy__:
 * Recognize that a palindrome is a string that is symmetrical with respect to its center, which can either be a character (in the case of odd-length palindromes) or an empty string (in the case of even-length palindromes). Thus, you can check the palindromicity of a string by simply expanding from its center and making sure that characters on both sides are indeed mirrored.   
 * Traverse the input string, and at each index, apply the logic mentioned in point #2. This reduces the runtime to O(n^2).
 
-__Complexity__: O(N^2) Time | O(1) Space  
+__Complexity__: O(N^2) Time | O(N) Space  
 * N = length of the input string

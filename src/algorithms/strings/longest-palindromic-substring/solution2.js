@@ -1,4 +1,4 @@
-// O(n^2) time | O(1) space
+// O(n^2) time | O(n) space
 function longestPalindromicSubstring(string) {
   let currentLongest = [0, 1];
   for (let i = 1; i < string.length; i++) {
