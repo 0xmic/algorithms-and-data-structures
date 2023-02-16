@@ -6,11 +6,11 @@ function longestPalindromicSubstring(string) {
 			const substring = string.slice(i, j + 1);
 			if (substring.length > longest.length && isPalindrome(substring)) {
 				longest = substring;
-			}
-		}
-	}
+			};
+		};
+	};
 	return longest
-}
+};
 
 function isPalindrome(string) {
 	let leftIdx = 0;
@@ -19,8 +19,8 @@ function isPalindrome(string) {
 		if (string[leftIdx] !== string[rightIdx]) return false;
 		leftIdx++;
 		rightIdx--;
-	}
+	};
 	return true;
-}
+};
 
 exports.longestPalindromicSubstring = longestPalindromicSubstring;
