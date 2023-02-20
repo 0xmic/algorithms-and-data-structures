@@ -104,6 +104,7 @@ Background knowledge:
   * [Caesar Cipher Encryptor](src/algorithms/strings/caesar-cipher-encryptor)
   * [Longest Palindromic Substring](src/algorithms/strings/longest-palindromic-substring)
   * [Group Anagrams](src/algorithms/strings/group-anagrams)
+  * [Run-Length Encoding](src/algorithms/strings/run-length-encoding)
 
 * **Tries**
   * [Suffix Trie Construction](src/algorithms/tries/suffix-trie-construction)
