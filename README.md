@@ -105,6 +105,7 @@ Background knowledge:
   * [Longest Palindromic Substring](src/algorithms/strings/longest-palindromic-substring)
   * [Group Anagrams](src/algorithms/strings/group-anagrams)
   * [Run-Length Encoding](src/algorithms/strings/run-length-encoding)
+  * [Generate Document](src/algorithms/strings/generate-document/)
 
 * **Tries**
   * [Suffix Trie Construction](src/algorithms/tries/suffix-trie-construction)
