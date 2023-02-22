@@ -106,6 +106,7 @@ Background knowledge:
   * [Group Anagrams](src/algorithms/strings/group-anagrams)
   * [Run-Length Encoding](src/algorithms/strings/run-length-encoding)
   * [Generate Document](src/algorithms/strings/generate-document/)
+  * [First Non-Repeating Character](src/algorithms/strings/first-non-repeating-character)
 
 * **Tries**
   * [Suffix Trie Construction](src/algorithms/tries/suffix-trie-construction)
