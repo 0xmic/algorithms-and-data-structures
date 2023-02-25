@@ -39,7 +39,8 @@ Background knowledge:
 * **Arrays**
   * [Two Number Sum](src/algorithms/arrays/two-number-sum)
   * [Validate Subsequence](src/algorithms/arrays/validate-subsequence)
-  * [Sorted Squared Array](src/algorithms/array/sorted-squared-array)
+  * [Sorted Squared Array](src/algorithms/arrays/sorted-squared-array)
+  * [Tournament Winner](src/algorithms//arrays/tournament-winner)
   * [Three Number Sum](src/algorithms/arrays/three-number-sum)
   * [Smallest Difference](src/algorithms/arrays/smallest-difference)
   * [Move Element to End](src/algorithms/arrays/move-element-to-end)
