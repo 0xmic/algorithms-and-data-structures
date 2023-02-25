@@ -14,6 +14,7 @@ __Sample Output__
 ## Solution & Complexity  
 __Solution__:  
 * Traverse the input array, swapping any two numbers that are out of order and keeping track of any swaps that you make. Once you arrive at the end of the array, check if you have made any swaps; if not, the array is sorted and you are done; otherwise, repeat the previous steps until the array is sorted.  
+
 __Complexity__:  
 * Best: O(n) Time | O(1) Space  
 * Average: O(N<sup>2</sup>) Time | O(1) Space  

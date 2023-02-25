@@ -17,13 +17,11 @@ ___Sample Output__:
 ```
 
 ## Strategy and Complexity
-__Strategy__
+__Strategy__:  
 1. One way to solve this problem is with nexted traversals of the string: you start by traversing the string, and for each character that you traverse, you traverse through the entire string again to see if the character appears anywhere else. The first index at which you find a character that doesn't appear anywhere else in the string is the index that you return. This approach works, but is not optimal.
 2. Hash tables are commonly used to keep track of frequencies. Build a hash table, where every key is a character in the string and every value is the corresponding character's frequency in the input strin. You can traverse the entire strin once to fill the hash table, and then with a second traversal throuh the string (not a nested traversal), you can use the hash table's constant-time lookups to find the first character with a frequency of `1`.  
 
-__Complexity__
-Solution 1: O(n^2) Time | O(1) Space
-- n = length of the input string
-
-Solution 2: O(n) Time | O(1) Space
-- n = length of the input string
+__Complexity__:  
+Solution 1: O(n^2) Time | O(1) Space  
+Solution 2: O(n) Time | O(1) Space  
+* n = length of the input string

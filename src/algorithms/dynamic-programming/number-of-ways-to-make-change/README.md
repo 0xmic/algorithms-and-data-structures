@@ -18,6 +18,7 @@ __Sample Output__:
 __Strategy__: Create an array `ways`. Each index in the array represents a specific amount of money and goes up to the target value. The index values are initialized with `ways[0] = 1` and `ways[i>0] = 0`. The value stored at each index represents the minimum number of ways to make change for the amount represented by the index number. At `ways[0]`, the value is `1`, since no change is the only way to make change for $0.  
 Next, iterate through the array `d` times for each denomination, applying the following formula at each index:
 `if denomination <= amount: ways[amount] += ways[amount - denomination]` .  
+
 __Complexity__: O(Nd) Time | O(N) Space  
 * N = target amount  
 * d = # of denominations

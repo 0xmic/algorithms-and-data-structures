@@ -20,7 +20,7 @@ __Strategy__:
 * For any two of the resulting alphabetized strings that are equal to each other, their original strings (with their letters in normal order) must be anagrams. With this result, you can bucket all of the resulting strings together, all the while keeping track of their original strings, to find the groups of anagrams.  
 * One approach would be to store the resulting strings mentioned in point 1 in a hash table and find the groups of anagrams using this table.  
 
-__Complexity__: O( ) Time | O( ) Space  
+__Complexity__:  
 * Solution 1: O(W * N * log(N) + N * W * log(W)) Time | O(WN) Space  
 * Solution 2 (above strategy): O(W * N * log(N)) Time | O(WN) Space  
 - N = length of the longest word  

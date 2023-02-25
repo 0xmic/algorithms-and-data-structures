@@ -78,6 +78,7 @@ Background knowledge:
   * [Main Heap Construction](src/algorithms/heaps/min-heap-construction)
 
 * **Linked Lists**
+  * [Remove Duplicates from Linked List](src/algorithms/linked-lists//remove-duplicate-from-linked-list)
   * [Linked List Construction](src/algorithms/linked-lists/linked-list-construction)
   * [Remove Kth Node from End](src/algorithms/linked-lists/remove-kth-node-from-end)
 
