@@ -41,7 +41,7 @@ Background knowledge:
   * [Validate Subsequence](src/algorithms/arrays/validate-subsequence)
   * [Sorted Squared Array](src/algorithms/arrays/sorted-squared-array)
   * [Tournament Winner](src/algorithms/arrays/tournament-winner)
-  * [Non-Constructible Change](src/algorithms/arrrays/non-constructible-change)
+  * [Non-Constructible Change](src/algorithms/arrays/non-constructible-change)
   * [Three Number Sum](src/algorithms/arrays/three-number-sum)
   * [Smallest Difference](src/algorithms/arrays/smallest-difference)
   * [Move Element to End](src/algorithms/arrays/move-element-to-end)
