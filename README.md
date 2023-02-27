@@ -75,6 +75,9 @@ Background knowledge:
   * [River Sizes](src/algorithms/graphs/river-sizes)
   * [Youngest Common Ancestor](src/algorithms/graphs/youngest-common-ancestor)
 
+* **Greedy Algorithms**
+  * [Minimum Waiting Time](src/algorithms/greedy-algorithms/minimum-waiting-time)
+
 * **Heaps**
   * [Main Heap Construction](src/algorithms/heaps/min-heap-construction)
 
