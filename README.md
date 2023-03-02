@@ -78,6 +78,7 @@ Background knowledge:
 * **Greedy Algorithms**
   * [Minimum Waiting Time](src/algorithms/greedy-algorithms/minimum-waiting-time)
   * [Class Photos](src/algorithms/greedy-algorithms/class-photos)
+  * [Tandem Bicycle](src/algorithms/greedy-algorithms/tandem-bicycle)
 
 * **Heaps**
   * [Main Heap Construction](src/algorithms/heaps/min-heap-construction)
