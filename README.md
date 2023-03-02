@@ -111,6 +111,7 @@ Background knowledge:
 * **Strings**
   * [Palindrome Check](src/algorithms/strings/palindrome-check)
   * [Caesar Cipher Encryptor](src/algorithms/strings/caesar-cipher-encryptor)
+  * [Semordnilap](src/algorithms/strings/semordnilap)
   * [Longest Palindromic Substring](src/algorithms/strings/longest-palindromic-substring)
   * [Group Anagrams](src/algorithms/strings/group-anagrams)
   * [Run-Length Encoding](src/algorithms/strings/run-length-encoding)
