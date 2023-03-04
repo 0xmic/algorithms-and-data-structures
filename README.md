@@ -118,6 +118,7 @@ Background knowledge:
   * [Longest Palindromic Substring](src/algorithms/strings/longest-palindromic-substring)
   * [Group Anagrams](src/algorithms/strings/group-anagrams)
   * [Valid IP Addresses](src/algorithms/strings/valid-ip-addresses)  
+  * [Reverse Words In String](src/algorithms/strings/reverse-words-in-string)
 
 * **Tries**
   * [Suffix Trie Construction](src/algorithms/tries/suffix-trie-construction)
