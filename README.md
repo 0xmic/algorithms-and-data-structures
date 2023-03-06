@@ -103,6 +103,7 @@ Background knowledge:
   * [Bubble Sort](src/algorithms/sorting/bubble-sort)
   * [Insertion Sort](src/algorithms/sorting/insertion-sort)
   * [Selection Sort](src/algorithms/sorting/selection-sort)
+  * [Three Number Sort](src/algorithms/sorting/three-number-sort)
 
 * **Stacks**
   * [Min Max Stack Construction](src/algorithms/stacks/min-max-stack-construction)
