@@ -119,6 +119,7 @@ Background knowledge:
   * [Group Anagrams](src/algorithms/strings/group-anagrams)
   * [Valid IP Addresses](src/algorithms/strings/valid-ip-addresses)  
   * [Reverse Words In String](src/algorithms/strings/reverse-words-in-string)
+  * [Minimum Characters For Words](src/algorithms//strings/min-characters-for-words)
 
 * **Tries**
   * [Suffix Trie Construction](src/algorithms/tries/suffix-trie-construction)
