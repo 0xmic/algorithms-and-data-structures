@@ -74,6 +74,7 @@ Background knowledge:
   * [Breadth-first Search](src/algorithms/graphs/breadth-first-search)
   * [River Sizes](src/algorithms/graphs/river-sizes)
   * [Youngest Common Ancestor](src/algorithms/graphs/youngest-common-ancestor)
+  * [Cycle In Graph](src/algorithms/graphs/cycle-in-graph)
 
 * **Greedy Algorithms**
   * [Minimum Waiting Time](src/algorithms/greedy-algorithms/minimum-waiting-time)
