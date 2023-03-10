@@ -109,6 +109,7 @@ Background knowledge:
 * **Stacks**
   * [Min Max Stack Construction](src/algorithms/stacks/min-max-stack-construction)
   * [Balanced Brackets](src/algorithms/stacks/balanced-brackets)
+  * [Sunset Views](src/algorithms/stacks/sunset-views)
 
 * **Strings**
   * [Palindrome Check](src/algorithms/strings/palindrome-check)
@@ -121,7 +122,7 @@ Background knowledge:
   * [Group Anagrams](src/algorithms/strings/group-anagrams)
   * [Valid IP Addresses](src/algorithms/strings/valid-ip-addresses)  
   * [Reverse Words In String](src/algorithms/strings/reverse-words-in-string)
-  * [Minimum Characters For Words](src/algorithms//strings/min-characters-for-words)
+  * [Minimum Characters For Words](src/algorithms/strings/min-characters-for-words)
 
 * **Tries**
   * [Suffix Trie Construction](src/algorithms/tries/suffix-trie-construction)
