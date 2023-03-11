@@ -110,6 +110,7 @@ Background knowledge:
   * [Min Max Stack Construction](src/algorithms/stacks/min-max-stack-construction)
   * [Balanced Brackets](src/algorithms/stacks/balanced-brackets)
   * [Sunset Views](src/algorithms/stacks/sunset-views)
+  * [Sort Stack](src/algorithms/stacks/sort-stack)
 
 * **Strings**
   * [Palindrome Check](src/algorithms/strings/palindrome-check)
