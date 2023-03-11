@@ -13,7 +13,7 @@ function sunsetViews(buildings, direction) {
         while (
             candidateBuildings.length > 0 &&
             buildings[candidateBuildings[candidateBuildings.length - 1]] <= buildingHeight
-        ) {
+        ) {;
             candidateBuildings.pop();
         }
 
