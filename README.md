@@ -111,6 +111,7 @@ Background knowledge:
   * [Balanced Brackets](src/algorithms/stacks/balanced-brackets)
   * [Sunset Views](src/algorithms/stacks/sunset-views)
   * [Sort Stack](src/algorithms/stacks/sort-stack)
+  * [Next Greater Element](src/algorithms/stacks/next-greater-element)
 
 * **Strings**
   * [Palindrome Check](src/algorithms/strings/palindrome-check)
