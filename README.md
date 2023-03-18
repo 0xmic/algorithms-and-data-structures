@@ -76,6 +76,7 @@ Background knowledge:
   * [Youngest Common Ancestor](src/algorithms/graphs/youngest-common-ancestor)
   * [Remove Islands](src/algorithms/graphs/remove-islands)
   * [Cycle In Graph](src/algorithms/graphs/cycle-in-graph)
+  * [Minimum Passes of Matrix](src/algorithms/graphs/minimum-passes-of-matrix)
 
 * **Greedy Algorithms**
   * [Minimum Waiting Time](src/algorithms/greedy-algorithms/minimum-waiting-time)
