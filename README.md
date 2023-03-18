@@ -90,6 +90,7 @@ Background knowledge:
   * [Remove Duplicates from Linked List](src/algorithms/linked-lists//remove-duplicate-from-linked-list)
   * [Linked List Construction](src/algorithms/linked-lists/linked-list-construction)
   * [Remove Kth Node from End](src/algorithms/linked-lists/remove-kth-node-from-end)
+  * [Sum Of Linked Lists](src/algorithms/linked-lists/sum-of-linked-lists)
 
 * **Recursion**
   * [Nth Fibonacci](src/algorithms/recursion/nth-fibonacci)
