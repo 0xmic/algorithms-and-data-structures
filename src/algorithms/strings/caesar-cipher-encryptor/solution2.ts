@@ -1,6 +1,6 @@
 // O(n) time | O(n) space
 export function caesarCipherEncryptor(string: string, key: number) {
-  const newLetters = [];
+  const newLetters: string[] = [];
   const newKey = key % 26;
   const alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
   for (const letter of string) {
