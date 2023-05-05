@@ -1,6 +1,6 @@
 # Algorithms and Data Structures
 
-This repository contains examples of many popular algorithms and data structures. Examples are written primarily in JavaScript, Python and Go.
+This repository contains examples of many popular algorithms and data structures. Examples are written primarily in JavaScript, TypeScript, Python and Go.
 
 Each algorithm and data structure has its own separate README with related explanations and links for further reading.
 
@@ -125,7 +125,7 @@ Background knowledge:
   * [Semordnilap](src/algorithms/strings/semordnilap)
   * [Longest Palindromic Substring](src/algorithms/strings/longest-palindromic-substring)
   * [Group Anagrams](src/algorithms/strings/group-anagrams)
-  * [Valid IP Addresses](src/algorithms/strings/valid-ip-addresses)  
+  * [Valid IP Addresses](src/algorithms/strings/valid-ip-addresses)
   * [Reverse Words In String](src/algorithms/strings/reverse-words-in-string)
   * [Minimum Characters For Words](src/algorithms/strings/min-characters-for-words)
 
